@@ -1,2 +1,0 @@
-# study-kotlin
-Studying Kotlin
