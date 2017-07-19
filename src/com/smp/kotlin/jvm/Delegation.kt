@@ -10,7 +10,7 @@ interface RobotGun {
     fun fire()
 }
 
-class RobotGunImpl() : RobotGun {
+class RobotGunImpl : RobotGun {
     override fun fire() {
         println("Tang!")
     }
