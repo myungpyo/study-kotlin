@@ -79,7 +79,7 @@ class NameTaggingDelegate {
 class NameTaggingDelegateWithProvider : ReadWriteProperty<ChatMessage, String> {
 
     operator fun provideDelegate(thisRef: ChatMessage?, property: KProperty<*>): ReadWriteProperty<ChatMessage, String> {
-        
+
         return this
     }
 
